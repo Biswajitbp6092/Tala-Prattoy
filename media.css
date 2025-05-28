@@ -1,27 +1,23 @@
+/* 992px */
 @media (max-width: 992px) {
   .banner-title {
-    font-size: 80px;
+    font-size: 64px; /* Less drastic change */
   }
-
   .img-ofset {
     transform: translateY(0px);
   }
-
   .discover-tala {
     padding-top: 2rem;
   }
-
-  .discover-tala .tala-content .tala-title {
-    font-size: 46px;
-  }
+  .discover-tala .tala-content .tala-title,
   .tala-info .info-content .info-title {
-    font-size: 46px;
+    font-size: 40px;
   }
   .tala-info .info-content .info .info-item {
-    flex-direction: column;
+    flex-direction: row; /* Keep row to avoid stacking */
   }
   .tala-info .info-content .info .info-item p {
-    margin-left: 0rem;
+    margin-left: 1rem;
     margin-top: 0rem;
   }
   .tala-info {
@@ -29,33 +25,33 @@
     padding-block: 1rem;
   }
   .about-section .about-content .about-title {
-    font-size: 60px;
+    font-size: 48px;
   }
-  .Objective-features .of-text{
-    width: 80%;
+  .Objective-features .of-text {
+    width: 90%;
   }
-  img{
-    width: 100%;
+  img {
+    max-width: 100%;
+    height: auto;
   }
   .our-video {
-    height: 500px;
+    height: 400px;
   }
-
 }
 
-/* ===================768=============  */
+/* 768px */
 @media (max-width: 768px) {
   .tala-info .info-content .info-title {
-    font-size: 40px;
+    font-size: 32px;
   }
   .tala-info .info-content .info .info-item h1 {
-    font-size: 1.7rem;
+    font-size: 1.3rem;
   }
   .tala-info .info-content .info .info-item p {
-    font-size: 0.8rem;
+    font-size: 0.9rem;
   }
   .Objective-features .of-heding {
-    font-size: 50px;
+    font-size: 36px;
   }
   .Objective-features .of-text {
     width: 100%;
@@ -68,103 +64,81 @@
   }
   .advertise-section .advertise-content {
     padding-inline: 0px;
-  }
-  .our-video {
-    height: 400px;
-  }
-  .tala-video .play-btn {
-    font-size: 4rem;
-  }
-  .gallery-section .gallery-text {
-    width: 100%;
-  }
-  /* .footer-bar {
-    padding-left: 0;
-  } */
-  
- 
-}
-
-/* ===================576============= */
-@media (max-width: 576px) {
-  .banner-title {
-    font-size: 48px;
-  }
-
-  .img-ofset {
-    transform: translateY(0px);
-  }
-
-  .discover-tala {
-    padding-top: 2rem;
-  }
-
-  .discover-tala .tala-content .tala-title {
-    font-size: 50px;
-  }
-
-  .tala-info {
-    padding-inline: 1rem;
-    padding-block: 1rem;
-  }
-
-  .tala-info .info-content {
-    padding: 0;
-  }
-
-  .tala-info .info-content .info .info-item {
-    display: block;
-  }
-
-  .Objective-features .of-heding {
-    font-size: 32px;
-  }
-
-  .Objective-features .of-text {
-    width: 100%;
-  }
-
-  .award-section .award-content .award-text {
-    width: 100%;
-  }
-
-  .advertise-section .advertise-content {
-    flex-direction: column;
+    flex-direction: row; /* Keep row to avoid stacking */
   }
   .our-video {
     height: 300px;
   }
   .tala-video .play-btn {
-    font-size: 4rem;
+    font-size: 3rem;
   }
+  .gallery-section .gallery-text {
+    width: 100%;
+  }
+}
 
+/* 576px */
+@media (max-width: 576px) {
+  .banner-title {
+    font-size: 40px;
+  }
+  .img-ofset {
+    transform: translateY(0px);
+  }
+  .discover-tala {
+    padding-top: 2rem;
+  }
+  .discover-tala .tala-content .tala-title {
+    font-size: 36px;
+  }
+  .tala-info {
+    padding-inline: 0.5rem;
+    padding-block: 0.5rem;
+  }
+  .tala-info .info-content {
+    padding: 0;
+  }
+  .tala-info .info-content .info .info-item {
+    display: flex;
+    flex-direction: row; /* Keep row to avoid stacking */
+  }
+  .Objective-features .of-heding {
+    font-size: 24px;
+  }
+  .Objective-features .of-text {
+    width: 100%;
+  }
+  .award-section .award-content .award-text {
+    width: 100%;
+  }
+  .advertise-section .advertise-content {
+    flex-direction: row; /* Keep row to avoid stacking */
+    padding-inline: 0;
+  }
+  .our-video {
+    height: 200px;
+  }
+  .tala-video .play-btn {
+    font-size: 2rem;
+  }
   .messart-img {
-    width: 80px;
+    width: 60px;
   }
-
   .left-content {
     width: 100%;
   }
-
-  .advertise-section .advertise-content {
-    padding-inline: 0;
-  }
-
   .gallery-section .gallery-text {
     width: 100%;
   }
   .menu-link {
     flex-direction: column;
   }
-
   .footer-bar {
-    padding: 2rem 1rem;
+    padding: 1rem 0.5rem;
   }
-
   .logo-section {
-    padding: 2rem 1rem;
+    padding: 1rem 0.5rem;
   }
-
   .newsletter-form {
     max-width: 100%;
   }
